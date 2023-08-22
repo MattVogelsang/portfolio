@@ -99,9 +99,10 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 img {
-    height: 60%;
-    width: 70%;
+    max-width: 100%;
+    height: auto;
     border-radius: 15px;
+
 }
 
 .about-col-2 {
