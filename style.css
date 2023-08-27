@@ -67,6 +67,76 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+/* #projectDropdown:hover + dropdown-content {
+
+    display: block;
+
+  } */
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.3s;
+    
+  }
+
+  
+
+  #projectDropdown:hover + .dropdown-content, 
+  .dropdown-content:hover {
+
+    display: block;
+
+  }
+
+  .dropdown-content a {
+    float: none;
+ 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* nav ul ul {
+    content: '';
+    position: absolute;
+    min-width: 160px;
+    display: contents; 
+    position: relative; 
+    top: 100%;
+    left: 0;
+    bottom: -6px;
+    transition: 1s;
+
+} */
+
+
+
 .header-text {
     margin-top: 20%;
     font-size: 30px;
@@ -102,7 +172,6 @@ nav ul li a:hover::after {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-
 }
 
 .about-col-2 {
@@ -380,7 +449,10 @@ nav .fas {
 @media only screen and (max-width: 600px) {
     #header {
         background-image: url(images/MattVogelsang123.png);
+        
     }
+
+
 
     .header-text {
         margin-top: 100%;
@@ -452,3 +524,4 @@ nav .fas {
     margin-top: -40px;
     display: block;
 }
+
