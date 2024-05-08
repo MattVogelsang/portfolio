@@ -96,7 +96,7 @@ nav ul li a:hover::after {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    transition: 0.3s;
+    transition: 0.9s;
     
   }
 
@@ -165,23 +165,30 @@ nav ul li a:hover::after {
 }
 
 .about-col-1 {
-    flex-basis: 35%;
+    flex-basis: 45%;
+    
 }
 
 .about-col-1 img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
+    position: relative;
+    left: 200px;
 }
 
 .about-col-2 {
     flex-basis: 60%;
+    position: relative;
+    left: 200px;
 }
 
 .sub-title {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    position: relative;
+    left: 1px;
 }
 
 .tab-titles {
@@ -197,6 +204,9 @@ nav ul li a:hover::after {
     position: relative;
 }
 
+.Pair {
+    font-size: 20px;
+}
 .tab-links::after {
     content: '';
     width: 0;
@@ -516,6 +526,7 @@ nav .fas {
     }
     .copyright{
         font-size: 14px;
+
     }
 }
 
@@ -524,3 +535,4 @@ nav .fas {
     margin-top: -40px;
     display: block;
 }
+
