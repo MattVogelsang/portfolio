@@ -174,13 +174,13 @@ nav ul li a:hover::after {
     height: auto;
     border-radius: 15px;
     position: relative;
-    left: 200px;
+    left: 100px;
 }
 
 .about-col-2 {
     flex-basis: 60%;
     position: relative;
-    left: 200px;
+    left: 100px;
 }
 
 .sub-title {
